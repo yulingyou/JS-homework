@@ -17,9 +17,8 @@ addBtn.addEventListener("click", function () {
   // .insertAdjacentElement("afterbegin", ul.textContent)
 
   if (taskInput.value.trim() !== "") {
-    const list = ul.taskInput
-    ul.insertAdjacentElement("afterbegin", list)
-
+    // const list = ul.taskInput
+    // ul.insertAdjacentElement("afterbegin", list)
     ul.innerHTML =
       `<li class="todo-item">
     <span class="item">${taskInput.value}</span>
